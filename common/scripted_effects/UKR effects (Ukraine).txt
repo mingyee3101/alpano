@@ -1,0 +1,258 @@
+UKR_remove_king = {
+	hidden_effect = {
+		if = {
+			limit = { has_character = UKR_wilhelm_franz_von_habsburg }
+			UKR_wilhelm_franz_von_habsburg = {
+				set_character_name = UKR_wilhelm_franz_von_habsburg
+				hidden_effect = { remove_all_country_leader_roles = yes }
+				set_nationality = AUS
+			}
+		}
+		if = {
+			limit = { has_character = UKR_leo_stefan_von_habsburg }
+			UKR_leo_stefan_von_habsburg = {
+				set_character_name = UKR_leo_stefan_von_habsburg
+				hidden_effect = { remove_all_country_leader_roles = yes }
+				set_nationality = AUS
+			}
+		}
+		if = {
+			limit = { has_character = UKR_danylo_skoropadskyi }
+			UKR_danylo_skoropadskyi = {
+				set_character_name = UKR_danylo_skoropadskyi
+				hidden_effect = { remove_all_country_leader_roles = yes }
+				retire = yes
+			}
+		}
+	}
+}
+
+UKR_create_vasyl = {
+	if = {
+		limit = { event_target:original_ukraine = { UKR_wilhelm_franz_von_habsburg = { is_dead = no } } }
+		event_target:original_ukraine = {
+			UKR_wilhelm_franz_von_habsburg = {
+				set_nationality = PREV.PREV
+				set_character_name = UKR_wilhelm_franz_von_habsburg_regnal
+				character_becomes_leader_of_ruling_party_effect_tooltip = yes
+				hidden_effect = {
+					remove_all_country_leader_roles = yes
+					add_country_leader_role = {
+						country_leader = {
+							desc = UKR_wilhelm_franz_von_habsburg_leader_desc
+							ideology = social_democrat_subtype
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							desc = UKR_wilhelm_franz_von_habsburg_leader_desc
+							ideology = social_liberal_subtype
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							desc = UKR_wilhelm_franz_von_habsburg_leader_desc
+							ideology = market_liberal_subtype
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							desc = UKR_wilhelm_franz_von_habsburg_leader_desc
+							ideology = social_conservative_subtype
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							desc = UKR_wilhelm_franz_von_habsburg_leader_desc
+							ideology = authoritarian_democrat_subtype
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							desc = UKR_wilhelm_franz_von_habsburg_leader_desc
+							ideology = paternal_autocrat_subtype
+						}
+						promote_leader = yes
+					}
+				}
+			}
+		}
+	}
+	else = {
+		UKR_create_leo_stefan = yes
+	}
+}
+
+UKR_create_leo_stefan = {
+	event_target:original_ukraine = {
+		UKR_leo_stefan_von_habsburg = {
+			set_nationality = PREV.PREV
+			set_character_name = UKR_leo_stefan_von_habsburg_regnal
+			character_becomes_leader_of_ruling_party_effect_tooltip = yes
+			hidden_effect = {
+				remove_all_country_leader_roles = yes
+				add_country_leader_role = {
+					country_leader = {
+						desc = UKR_leo_stefan_von_habsburg_leader_desc
+						ideology = social_democrat_subtype
+					}
+					promote_leader = yes
+				}
+				add_country_leader_role = {
+					country_leader = {
+						desc = UKR_leo_stefan_von_habsburg_leader_desc
+						ideology = social_liberal_subtype
+					}
+					promote_leader = yes
+				}
+				add_country_leader_role = {
+					country_leader = {
+						desc = UKR_leo_stefan_von_habsburg_leader_desc
+						ideology = market_liberal_subtype
+					}
+					promote_leader = yes
+				}
+				add_country_leader_role = {
+					country_leader = {
+						desc = UKR_leo_stefan_von_habsburg_leader_desc
+						ideology = social_conservative_subtype
+					}
+					promote_leader = yes
+				}
+				add_country_leader_role = {
+					country_leader = {
+						desc = UKR_leo_stefan_von_habsburg_leader_desc
+						ideology = authoritarian_democrat_subtype
+					}
+					promote_leader = yes
+				}
+				add_country_leader_role = {
+					country_leader = {
+						desc = UKR_leo_stefan_von_habsburg_leader_desc
+						ideology = paternal_autocrat_subtype
+					}
+					promote_leader = yes
+				}
+			}
+		}
+	}
+}
+
+UKR_create_danylo = {
+	event_target:original_ukraine = {
+		UKR_danylo_skoropadskyi = {
+			set_nationality = PREV.PREV
+			set_character_name = UKR_danylo_skoropadskyi_regnal
+			character_becomes_leader_of_ruling_party_effect_tooltip = yes
+			hidden_effect = {
+				remove_all_country_leader_roles = yes
+				add_country_leader_role = {
+					country_leader = {
+						desc = UKR_danylo_skoropadskyi_leader_desc
+						ideology = social_democrat_subtype
+					}
+					promote_leader = yes
+				}
+				add_country_leader_role = {
+					country_leader = {
+						desc = UKR_danylo_skoropadskyi_leader_desc
+						ideology = social_liberal_subtype
+					}
+					promote_leader = yes
+				}
+				add_country_leader_role = {
+					country_leader = {
+						desc = UKR_danylo_skoropadskyi_leader_desc
+						ideology = market_liberal_subtype
+					}
+					promote_leader = yes
+				}
+				add_country_leader_role = {
+					country_leader = {
+						desc = UKR_danylo_skoropadskyi_leader_desc
+						ideology = social_conservative_subtype
+					}
+					promote_leader = yes
+				}
+				add_country_leader_role = {
+					country_leader = {
+						desc = UKR_danylo_skoropadskyi_leader_desc
+						ideology = authoritarian_democrat_subtype
+					}
+					promote_leader = yes
+				}
+				add_country_leader_role = {
+					country_leader = {
+						desc = UKR_danylo_skoropadskyi_leader_desc
+						ideology = paternal_autocrat_subtype
+					}
+					promote_leader = yes
+				}
+			}
+		}
+	}
+}
+
+UKR_leaves_reichspakt = {
+	if = {
+		limit = { is_faction_leader = yes }
+		dismantle_faction = yes
+	}
+	else_if = {
+		limit = { is_in_faction = yes }
+		faction_leader = { country_event = { id = ukraine.73 days = 1 } }
+	}
+	else_if = {
+		limit = { is_subject = yes }
+		overlord = { country_event = { id = ukraine.73 days = 1 } }
+	}
+	clear_all_relations_except_wars = yes
+	every_enemy_country = {
+		limit = {
+			is_valid_peace_target = yes
+			NOT = { is_owner_neighbor_of = ROOT }
+		}
+		white_peace_with_ROOT = yes
+	}
+	GER_remove_from_mitteleuropa = yes
+	MIE_remove_from_intermarium = yes
+}
+
+##########################
+### Seconds in Command ###
+##########################
+
+UKR_pavlo_skoropadskyi_sic = {
+	if = {
+		limit = {
+			has_character = UKR_pavlo_skoropadskyi
+			UKR_pavlo_skoropadskyi = { is_second_in_command = no }
+		}
+		activate_advisor = UKR_pavlo_skoropadskyi_second_in_command
+	}
+}
+
+UKR_andrii_livytskyi_sic = {
+	if = {
+		limit = {
+			has_character = UKR_andrii_livytskyi
+			UKR_andrii_livytskyi = { is_second_in_command = no }
+		}
+		activate_advisor = UKR_andrii_livytskyi_second_in_command
+	}
+}
+
+UKR_oleksander_shumsky_sic = {
+	if = {
+		limit = {
+			has_character = UKR_oleksander_shumsky
+			UKR_oleksander_shumsky = { is_second_in_command = no }
+		}
+		activate_advisor = UKR_oleksander_shumsky_second_in_command
+	}
+}

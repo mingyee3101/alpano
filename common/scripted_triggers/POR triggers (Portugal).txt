@@ -1,0 +1,10 @@
+POR_won_against_mittelafrika = {
+	OR = {
+		has_global_flag = MAF_NoAttack_Portugal
+		NOT = { country_exists = MAF }
+	}
+}
+
+POR_has_monarchy = {
+	has_cosmetic_tag = POR_monarchy
+}
