@@ -1,0 +1,23 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_Kim_Il_sung"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Kim_Il_sung.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Syngman_Rhee"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Syngman_Rhee.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Yi_Un"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yi_Un.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Yi_Kang"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yi_Kang.dds"
+	}
+	
+}
