@@ -3,7 +3,7 @@
 oob = "KOR_1936"
 
 # Starting tech
-set_technology = {
+set_technology = { 
 	infantry_weapons = 1
 	mass_assault = 1
 }
@@ -11,10 +11,10 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = NO
 }
 set_popularities = {
 	democratic = 35
@@ -24,7 +24,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Syngman Rhee"
+	name = "각청"
 	desc = ""
 	picture = "gfx/leaders/KOR/Portrait_Syngman_Rhee.dds"
 	expire = "1965.1.1"
@@ -35,7 +35,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Yi Kang"
+	name = "감우"
 	desc = ""
 	picture = "gfx/leaders/KOR/Portrait_Yi_Kang.dds"
 	expire = "1965.1.1"
@@ -46,7 +46,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Kim Il-sung"
+	name = "연비"
 	desc = ""
 	picture = "gfx/leaders/KOR/Portrait_Kim_Ilsung.dds"
 	expire = "1965.1.1"
@@ -57,9 +57,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Yi Un"
+	name = "모락스"
 	desc = ""
-	picture = "gfx/leaders/KOR/Portrait_Yi_Un.dds"
+	picture = "gfx/leaders/KOR/morax.png"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
