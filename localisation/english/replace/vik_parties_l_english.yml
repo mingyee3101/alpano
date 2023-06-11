@@ -1,8 +1,8 @@
-﻿l_english:
- KOR_communism_party:0 "조선로동당"
- KOR_communism_party_long:0 "조선로동당"
- KOR_democratic_party:0 "대한독립촉성국민회"
- KOR_neutrality_party:0 "대한제국 황실 보황파"
- KOR_neutrality_party_long:0 "대한제국 황실 보황파"
- KOR_fascism_party:0 "대한제국 황실 복벽파"
- KOR_fascism_party_long:0 "대한제국 황실 복벽파"
+l_english:
+ KOR_communism_party:0 "리월민중당"
+ KOR_communism_party_long:0 "리월민중당"
+ KOR_democratic_party:0 "리월 공화당"
+ KOR_neutrality_party:0 "암왕제군 지지자"
+ KOR_neutrality_party_long:0 "암왕제국 지지자 연합"
+ KOR_fascism_party:0 "암왕제군"
+ KOR_fascism_party_long:0 "암왕제군"
