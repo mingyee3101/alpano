@@ -9,7 +9,7 @@ state={
 		tungsten=3.000
 	}
 	history={
-		owner = JAP
+		owner = KOR
 		buildings = {
 			infrastructure = 2
 			848 = {
